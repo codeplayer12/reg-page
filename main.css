@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root{
+    --red: hsl(0, 100%, 74%);
+    --green:hsl(154, 59%, 51%);
+    --blue:hsl(248, 32%, 49%);
+    --dark-blue:hsl(249, 10%, 26%);
+    --grayish-blue:hsl(246, 25%, 77%);
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url('./images/bg-intro-desktop.png');
+    display: flex;
+    align-items: center;
+    background-color: var(--red);
+    font-size: 16px;
+}
+
+.container{
+    display: flex; 
+    width: 80%;
+    margin: 0 auto;
+    flex-basis: auto;
+}
+input{
+    width: 80%;
+    padding:10px;
+    margin: 5px;
+    border: 1px solid  var(--grayish-blue);
+    border-radius: 5px;
+}
+input[type='submit']{
+    background: var(--green);
+    color:white;
+    border: none;
+    width: 84%;
+}
+.section{
+    flex: 2px;
+}
+.section-form,.section{
+    flex: 1;
+    margin: 10px;
+}
+.section-form p{
+    font-size: 12px;
+    text-align: center;
+}
